@@ -1,0 +1,16 @@
+{
+  "name": "selenium-test",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.1.27",
+    "selenium-webdriver": "^4.27.0",
+    "zod": "^3.24.1"
+  }
+}
